@@ -22,3 +22,6 @@ docker stop $(docker ps -aq)
 
 # Delete all working containers 
 docker rm $(docker ps -aq)
+
+# Get inside container
+docker-compose exec (NAME_OF_CONTAINER) bash
