@@ -25,3 +25,7 @@ docker rm $(docker ps -aq)
 
 # Get inside container
 docker-compose exec (NAME_OF_CONTAINER) bash
+
+#NGINX Virtual hosts
+root /var/www/site/public - this route use if index.php inside PUBLIC dir.
+root /var/www/site/ - if index.php inside root dir of the project
