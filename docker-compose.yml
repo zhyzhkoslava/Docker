@@ -11,7 +11,7 @@ services:
     links:
     - php
   php:
-    image: webdevops/php-dev:7.2
+    image: webdevops/php-dev:8.2
     volumes:
     - ./:/var/www/site/
     working_dir: /var/www/site
